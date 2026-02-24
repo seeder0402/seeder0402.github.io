@@ -18,8 +18,14 @@ header {
   z-index: 1000;
 }
 
-header nav a {
+header nav a:not([class]) {
   color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#q{
+  color: #333;
   margin-right: 20px;
   text-decoration: none;
 }
